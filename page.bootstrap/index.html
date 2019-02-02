@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Bootstrap__basic</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js" defer></script>
+
+
+</head>
+
+<body>
+	<!-- Start navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#">My site</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+	    <ul class="navbar-nav flex-custom">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Features</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Pricing</a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Dropdown link
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+	          <a class="dropdown-item" href="#">Action</a>
+	          <a class="dropdown-item" href="#">Another action</a>
+	          <a class="dropdown-item" href="#">Something else here</a>
+	        </div>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+	<!-- End navbar -->
+
+	<!-- Start carusel -->
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	  <ol class="carousel-indicators" >
+	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	  </ol>
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	    	<span class="d-block w-100" style="background-image: url(img/section-1.jpg)"></span>
+	    </div>
+	    <div class="carousel-item">
+	      <span class="d-block w-100" style="background-image: url(img/section-2.jpg)"></span>
+	    </div>
+	    <div class="carousel-item">
+	      <span class="d-block w-100" style="background-image: url(img/section-3.jpg)"></span>
+	    </div>
+	  </div>
+	  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+	<!-- End carusel -->
+
+	<!-- Start Cards -->
+	<div class="container">
+		<div class="row cards-my justify-content-center">
+			<div class="col-md-4 col-sm-6 col-lg-3">
+				<div class="card" style="width: 100%">
+				  <div class="card-body">
+				    <h5 class="card-title">Название карточки</h5>
+				    <h6 class="card-subtitle mb-2 text-muted">Подзаголовок карты</h6>
+				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <a href="#" class="card-link">Ссылка карты</a>
+				    <a href="#" class="card-link">Другая ссылка</a>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-lg-3">
+				<div class="card" style="width: 100%;">
+				  <div class="card-body">
+				    <h5 class="card-title">Название карточки</h5>
+				    <h6 class="card-subtitle mb-2 text-muted">Подзаголовок карты</h6>
+				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <a href="#" class="card-link">Ссылка карты</a>
+				    <a href="#" class="card-link">Другая ссылка</a>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-lg-3">
+				<div class="card" style="width: 100%;">
+				  <div class="card-body">
+				    <h5 class="card-title">Название карточки</h5>
+				    <h6 class="card-subtitle mb-2 text-muted">Подзаголовок карты</h6>
+				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <a href="#" class="card-link">Ссылка карты</a>
+				    <a href="#" class="card-link">Другая ссылка</a>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-lg-3">
+				<div class="card" style="width: 100%;">
+				  <div class="card-body">
+				    <h5 class="card-title">Название карточки</h5>
+				    <h6 class="card-subtitle mb-2 text-muted">Подзаголовок карты</h6>
+				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <a href="#" class="card-link">Ссылка карты</a>
+				    <a href="#" class="card-link">Другая ссылка</a>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Cards -->
+
+	<!-- text cont start -->
+	<div class="container-fluid my-cont">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo doloremque, reprehenderit ipsam, dolores ducimus labore aperiam laborum earum cum id itaque corporis mollitia fugit tempora animi error atque sunt voluptate nam omnis iste aut. Numquam, ipsam voluptates libero veritatis aut repellendus possimus minima eveniet? Perferendis temporibus sapiente, minima tenetur repellat error quae ea! Facilis fugit quod ullam reprehenderit optio in necessitatibus tempore tempora? Quam fugit culpa mollitia nulla ea deserunt, harum sunt nobis accusamus
+		</p>
+
+		<div class="cont container">
+			<div class="btn-group my-btn">
+			  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    Action
+			  </button>
+			  <div class="dropdown-menu">
+			    <a class="dropdown-item" href="#">Action</a>
+			    <a class="dropdown-item" href="#">Another action</a>
+			    <a class="dropdown-item" href="#">Something else here</a>
+			    <div class="dropdown-divider"></div>
+			    <a class="dropdown-item" href="#">Separated link</a>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<!-- text cont end -->
+
+	<!-- collapse conts start -->
+	<div class="container cont-collapse">
+		<div class="accordion" id="accordionExample">
+		  <div class="card">
+		    <div class="card-header" id="headingOne">
+		      <h5 class="mb-0">
+		        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+		          <span class="span-accord">Разворачиваемая панель #3</span>
+		        </button>
+		      </h5>
+		    </div>
+
+		    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+		      <div class="card-body">
+		        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+		      </div>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <div class="card-header" id="headingTwo">
+		      <h5 class="mb-0">
+		        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+		          Разворачиваемая панель #2
+		        </button>
+		      </h5>
+		    </div>
+		    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+		      <div class="card-body">
+		        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+		      </div>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <div class="card-header" id="headingThree">
+		      <h5 class="mb-0">
+		        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+		          Разворачиваемая панель #3
+		        </button>
+		      </h5>
+		    </div>
+		    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+		      <div class="card-body">
+		        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<!-- collapse conts end -->
+
+	<!-- Modal start -->
+		<div class="container-fluid contain my-cont">
+			<!-- Button trigger modal -->
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+			  run modal window
+			</button>
+
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			  <div class="modal-dialog modal-dialog-centered" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <div class="modal-body">
+			        <h5>Popover in a modal</h5>
+			          <p>This <a href="#" role="button" class="btn btn-secondary popover-test" title="Popover title" data-content="Popover body content is set in this attribute.">button</a> triggers a popover on click.</p>
+			          <hr>
+			          <h5>Tooltips in a modal</h5>
+			          <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        <button type="button" class="btn btn-primary">Save changes</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+	<!-- Modal end -->
+
+	<!-- Group-list start -->
+	<div class="container contain group-btn">	
+		<div class="row">
+		  <div class="col-4">
+		    <div class="list-group" id="list-tab" role="tablist">
+		      <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
+		      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+		      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+		      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+		    </div>
+		  </div>
+		  <div class="col-8">
+		    <div class="tab-content" id="nav-tabContent">
+		      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem reiciendis, aperiam, fugiat iure atque voluptate autem, nam eligendi earum itaque at. Quibusdam assumenda aliquid accusantium nam quos delectus esse vitae omnis totam, inventore est maxime ad facere, asperiores ea libero recusandae autem cum veritatis molestiae! Soluta recusandae pariatur nisi neque architecto, officiis nam. Minima explicabo atque eum qui sed at totam, a numquam, veritatis eius possimus aliquid eveniet ea perspiciatis! Velit sed quis reprehenderit voluptatum dignissimos veniam nostrum delectus ducimus non nesciunt officia amet ipsum ipsa tempore porro modi eligendi inventore quibusdam, pariatur dicta, voluptates aspernatur perspiciatis in iusto. Maiores laudantium exercitationem, ipsa ipsam ducimus esse, ipsum corporis vitae quas, modi similique accusantium minima. Cupiditate blanditiis eius iusto, placeat voluptatem.</div>
+		      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dolore fuga provident quia iste eaque nam rem corporis, mollitia aspernatur quae ex vitae sapiente ipsam accusamus doloribus in, ut itaque?</div>
+		      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Скатился переписывается ведущими взобравшись решила, продолжил всемогущая свой лучше послушавшись мир если подзаголовок единственное силуэт выйти, реторический осталось вопрос однажды.</div>
+		      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo ratione, natus qui deleniti consequatur quae eos soluta voluptatem vitae. Possimus soluta molestias modi, totam nobis quos voluptatibus molestiae maiores iure praesentium ab autem incidunt recusandae, quam laudantium necessitatibus repellat ipsum natus! Eius veritatis earum aliquid laboriosam temporibus doloribus minus, a. Tempora nihil similique, earum quibusdam, eos quas, sequi perspiciatis neque laboriosam quia iste, cum quos? Praesentium reiciendis recusandae, consequatur eius qui laboriosam dolore, sit veritatis modi ullam adipisci dolorum doloribus quo! Natus eveniet sed, quo perferendis nostrum cupiditate, distinctio ducimus non magnam aspernatur provident laudantium deserunt, aut enim! Magnam, saepe!</div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<!-- Group-list end -->
+
+	<!-- range-list start -->
+	<div class="container contain range">
+		<span class="ranged">Example range 50%</span>
+		<label for="customRange2" class="ranged"></label>
+		<input type="range" class="custom-range" min="1" max="1000" id="customRange2">
+	</div>
+	<!-- range-list end -->
+
+	<!-- cards start -->
+	<div class="container cards-cont">
+			<div class="card  text-white bg-primary mb-3" >
+			  <div class="card-header">Header</div>
+			  <div class="card-body">
+			    <h5 class="card-title">Primary card title</h5>
+			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			  </div>
+			</div>
+
+			<div class="card  text-white bg-secondary mb-3">
+			  <div class="card-header">Header</div>
+			  <div class="card-body">
+			    <h5 class="card-title">Secondary card title</h5>
+			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			  </div>
+			</div>
+
+			<div class="card text-white bg-success mb-3">
+			  <div class="card-header">Header</div>
+			  <div class="card-body">
+			    <h5 class="card-title">Success card title</h5>
+			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			  </div>
+			</div>
+
+			<div class="card  text-white bg-danger mb-3">
+			  <div class="card-header">Header</div>
+			  <div class="card-body">
+			    <h5 class="card-title">Danger card title</h5>
+			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			  </div>
+			</div>
+	</div>
+	<!-- cards start -->
+</body>
+</html>
