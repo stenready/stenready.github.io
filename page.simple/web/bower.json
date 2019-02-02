@@ -1,0 +1,14 @@
+{
+  "name": "pro",
+  "authors": [
+    "Sten Ready <mastars2319@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "particles.js": "^2.0.0",
+    "slick-carousel": "^1.8.1"
+  }
+}
