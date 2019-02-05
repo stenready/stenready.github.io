@@ -7,7 +7,7 @@ ul{
 	margin: 0;
 }
 .galery{
-	width: 37.5rem;
+	max-width: 37.5rem;
 	height: auto;
 	margin: 20px auto;
 }
@@ -21,6 +21,7 @@ ul{
 	display: block;
 	width: 100%;
 	max-height: 330px;
+	max-width: 100%;
 }
 .galery__thumbler{
 	list-style-type: none;
@@ -39,4 +40,15 @@ ul{
 }
 .galery__item.active{
 	border: 3px solid red;
+}
+
+@media screen and (max-width: 640px) {
+	.galery__item {
+		width: calc(100% / 3 - 10px);
+	}
+}
+@media screen and (max-width: 440px) {
+	.galery__img{
+		height: 16rem;
+	}
 }
