@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <title>Task List</title>
+</head>
+<body>
+
+  <div id="app">
+
+    <div class="task-list">
+
+        <div class="container">
+            <div class="row">
+              <div class="col s12 m8 offset-m2">
+                  <div class="row">
+                      <div class="col s12">
+      
+                        <div class="card">
+
+                          <div class="card-content">
+                            <span class="card-title">Card Title</span>
+                            <div class="row">
+                              <form class="col s12" id="task-form">
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input id="task" type="text" class="validate" name="task" required>
+                                        <label for="task">new task</label>
+                                        <span class="helper-text" data-error="task name must have"></span>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn">Add Task</button>
+                              </form>
+                            </div>
+                          </div>
+
+                          <div class="card-action">
+                            <h5 id="task-title">Filtred Tasks</h5>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="task-filter" type="text" class="validate" name="filter">
+                                    <label for="task-filter">Filter tasks</label>
+                                </div>
+                            </div>
+                            <ul class="collection">
+
+                            </ul>
+                            <a href="#"  class="clear-tasks btn black">Clear Tasks</a>
+                          </div>
+
+                        </div>
+                        
+                      </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>

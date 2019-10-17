@@ -1,0 +1,57 @@
+@import 'helpers/vars.scss';
+@import 'helpers/mixin.scss';
+@import 'helpers/fonts.scss';
+
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card{
+  #task-form{
+    .row{
+      margin-bottom: 0;
+    }
+    .input-field {
+      margin-bottom: 0.5rem;
+    }
+  }
+  .card-content{
+    padding: 15px 25px 5px 25px !important;
+    .row{
+      margin-bottom: 10px;
+    }
+  }
+  .card-action{
+    .row{
+      margin-bottom: 0;
+    }
+  }
+  .collection-item{
+    position: relative;
+    .edit-task{
+      .secondary-content{
+        transform: translateY(75%)
+      }
+    }
+
+    .input-field{
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+  }
+  .collection{
+    input{
+      width: 80%;
+    }
+  }
+
+}
+
+////start dev/////
+
+////start dev/////
+
+
+@import 'helpers/media.scss';
