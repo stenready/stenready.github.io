@@ -1,0 +1,25 @@
+@import 'helpers/vars.scss';
+@import 'helpers/mixin.scss';
+@import 'helpers/fonts.scss';
+
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+////start dev/////
+#loaded{
+  img{
+    display: inline-block;
+    height: 68px;
+  }
+  display: none;
+}
+#results{
+  display: none;
+}
+////start dev/////
+
+
+@import 'helpers/media.scss';
