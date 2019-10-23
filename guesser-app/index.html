@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  
+  <title>Угадай число</title>
+<link href="/assets/css/app.30c169e41bd3c8c4fecd.css" rel="stylesheet"></head>
+<body>
+
+  <div id="app">
+    <div class="overlay"></div>
+    <div class="container" id="game">
+      <div class="row">
+        <div class="columns">
+            <div class="game-container">
+                <h1>Угадай число <span class="showSettings"><i class="fa fa-cog" aria-hidden="true"></i></span></h1>
+                <p>Для того чтобы победить Вам необходимо угадать число от min до max за n попыток</p>
+                <p>Угадай число между <span class="min"></span> и <span class="max"></span> </p>
+                <input type="number"  id="guesse-input" placeholder="Введите Ваше число" min="1">
+                <input type="submit" id="guesse-btn" value="играть">
+                <p id="message"></p>
+            </div>
+
+            <div class="setting one-third column">
+              <div class="text">
+                  <p>Установите значения <strong>min</strong> <strong>max</strong> и необходимое количество попыток <strong>n</strong></p>
+                </div>
+                <div class="row settings-form">
+                    <input type="number" class=" one-third column" placeholder="Min" id="setmin" min="1">
+                    <input type="number" class=" one-third column" placeholder="Max" id="setmax" min="1">
+                    <input type="number" class=" one-third column" placeholder="n" id="setn" min="1">
+                    <input type="submit" value="save" class="button-primary save">
+                </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+<script type="text/javascript" src="/assets/js/vendors.30c169e41bd3c8c4fecd.js"></script><script type="text/javascript" src="/assets/js/app.30c169e41bd3c8c4fecd.js"></script></body>
+</html>
