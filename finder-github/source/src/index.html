@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+  
+  <title>GitHub Finder</title>
+</head>
+<body>
+
+  <div id="app">
+
+    <nav class="navbar navbar-dark bg-primary mb-3">
+      <div class="container">
+        <a href="#" class="navbar-brand">GitHub Finder</a>
+      </div>
+    </nav>
+
+    <div class="container searchContainer">
+      <div class="search card card-body mb-2">
+        <h1>Search GitHub Users</h1>
+        <p class="lead">Enter a username to fetch a user profile and repos</p>
+        <input type="text" class="form-control" id="searchInput" placeholder="username...">
+      </div>
+      <div id="profile"></div>
+    </div>
+    <div hidden id="spinner"></div>
+    <footer class="mt-5 text-center bg-light p-3 ">GitHub Finder &copy;</footer>
+  </div>
+
+</body>
+</html>
