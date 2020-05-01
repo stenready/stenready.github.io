@@ -7,3 +7,5 @@
   <li>Спиннер загрузки</li>
   <li>Обработка ошибок</li>
 </ul>
+
+https://stenready.github.io/finder-github/
