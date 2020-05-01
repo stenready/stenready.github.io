@@ -8,3 +8,4 @@
 </ul>
 <p>Реализовано сохранение - удаление - редактирование задач в localStorage</p>
 <p>Автор Sten Ready <mastars2319@gmail.com></</p>
+  https://stenready.github.io/todo-application/
